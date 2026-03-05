@@ -15,3 +15,7 @@ O **Fim de Expediente** automatiza essa limpeza. Com apenas um clique duplo, o s
 1. Clone este repositório na sua máquina:
    ```bash
    git clone [https://github.com/JulioCaetanovds/fim-de-expediente.git](https://github.com/JulioCaetanovds/fim-de-expediente.git)
+   ```
+2. Abra o arquivo `OptimizeGameMode.ps1` e edite a array `$apps` com os nomes dos processos que você costuma usar no seu dia a dia (ex: `code`, `studio`, `qemu-system-x86_64`, `chrome`).
+3. Execute o atalho `Jogar.bat` (ele pedirá permissão de Administrador automaticamente, o que é estritamente necessário para realizar o *flush* da memória do Windows).
+4. Abra seu jogo e aproveite a performance máxima da sua máquina!
