@@ -1,5 +1,5 @@
-# MEXER AQUI: MEUS APPS PARA DERRUBAR
-$apps = @("chrome", "code", "qemu-system-x86_64", "adb", "parsec")
+# ALTERAR AQUI, APPS PARA FECHAR
+$apps = @("chrome", "code", "qemu-system-x86_64", "adb", "parsec", "studio64", "Postman", "java", "javaw", "docker", "GitHubDesktop")
 
 foreach ($app in $apps) {
     Stop-Process -Name $app -Force -ErrorAction SilentlyContinue
